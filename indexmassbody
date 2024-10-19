@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>IMB</title>
+    <link rel="stylesheet" href="imb.css" />
+  </head>
+  <body>
+    <h1>Calculator IMB</h1>
+    <p>In this calculator you can count your excessive weight</p>
+    <form>
+      <fieldset>
+        <label>Weight;kg</label>
+        <input type="number" id="mass" />
+      </fieldset>
+
+      <fieldset>
+        <label>Height;cm</label>
+        <input type="number" id="rost" />
+      </fieldset>
+
+      <fieldset>
+        <label>IMB:</label>
+        <span id="res"></span>
+      </fieldset>
+
+      <button id="btn">Calculate</button>
+
+      <p>
+        Calculating body mass index determines the relationship between weight
+        and Height
+      </p>
+
+      <p>
+        In the table you can see an explanation of the indicators according to
+        WHO reccomendations
+      </p>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <td>Body mass index</td>
+          <td>Correspondence between a person's mass and his height</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>15 and less</td>
+          <td>Expression underweight</td>
+        </tr>
+        <tr>
+          <td>16-18,4</td>
+          <td>Insufficient body mass</td>
+        </tr>
+        <tr>
+          <td>18,5-24</td>
+          <td>Norm</td>
+        </tr>
+        <tr>
+          <td>25-29</td>
+          <td>Overweight</td>
+        </tr>
+        <tr>
+          <td>30-34</td>
+          <td>First degree obesity</td>
+        </tr>
+        <tr>
+          <td>35-39</td>
+          <td>Second degree obesity</td>
+        </tr>
+        <tr>
+          <td>40 or more</td>
+          <td>Third degree obesity</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="imassbody.js"></script>
+  </body>
+</html>

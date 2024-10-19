@@ -1,0 +1,62 @@
+html {
+  font-family: "Inter", sans-serif;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  color: #666666;
+  font-size: 15px;
+}
+
+input {
+  height: 40px;
+  border: 1px solid #d8dadc;
+  outline: none;
+  padding: 0 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+label {
+  font-weight: 700;
+  color: #666666;
+  display: inline-block;
+  width: 80px;
+}
+
+button {
+  background-color: #0088cc;
+  height: 40px;
+  padding: 0 20px;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  margin: 20px 0px;
+}
+
+table {
+  border: none;
+  border-spacing: 0;
+}
+
+thead {
+  background-color: #889ea5;
+  height: 50px;
+  color: white;
+}
+
+td {
+  padding: 0 20px;
+  border-bottom: 1px solid #ecf2f4;
+}
+
+tr {
+  height: 50px;
+}
